@@ -8,7 +8,11 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ['var(--font-fira-code)', 'monospace'],
+      },
+    },
   },
   plugins: [],
 };

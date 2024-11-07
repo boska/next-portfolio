@@ -16,8 +16,8 @@ export default function ThemeToggle() {
             <button
                 onClick={() => setTheme('light')}
                 className={`p-2 rounded-md transition-colors ${theme === 'light'
-                        ? 'bg-white dark:bg-gray-700 text-yellow-500'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
+                    ? 'bg-white dark:bg-gray-700 text-yellow-500'
+                    : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
                     }`}
                 aria-label="Light mode"
             >
@@ -26,8 +26,8 @@ export default function ThemeToggle() {
             <button
                 onClick={() => setTheme('dark')}
                 className={`p-2 rounded-md transition-colors ${theme === 'dark'
-                        ? 'bg-white dark:bg-gray-700 text-blue-500'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
+                    ? 'bg-white dark:bg-gray-700 text-blue-500'
+                    : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
                     }`}
                 aria-label="Dark mode"
             >
@@ -36,8 +36,8 @@ export default function ThemeToggle() {
             <button
                 onClick={() => setTheme('system')}
                 className={`p-2 rounded-md transition-colors ${theme === 'system'
-                        ? 'bg-white dark:bg-gray-700 text-purple-500'
-                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
+                    ? 'bg-white dark:bg-gray-700 text-purple-500'
+                    : 'text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700'
                     }`}
                 aria-label="System theme"
             >
