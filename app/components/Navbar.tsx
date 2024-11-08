@@ -1,4 +1,5 @@
 import ThemeToggle from './ThemeToggle';
+import LocalizationToggle from './LocalizationToggle';
 
 export default function Navbar() {
     return (
@@ -8,7 +9,10 @@ export default function Navbar() {
                     <div className="flex-1">
                         <h1 className="text-base font-mono">Yang Lee -&gt;</h1>
                     </div>
-                    <ThemeToggle />
+                    <div className="flex space-x-4 items-center">
+                        <LocalizationToggle />
+                        <ThemeToggle />
+                    </div>
                 </div>
             </div>
         </nav>

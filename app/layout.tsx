@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fira_Code, Fira_Sans } from "next/font/google";
 import "./globals.css";
 import ThemeProviderWrapper from './components/ThemeProviderWrapper';
+import { Analytics } from "@vercel/analytics/react"
 
 const firaCode = Fira_Code({
   subsets: ["latin"],
@@ -44,6 +45,7 @@ export default function RootLayout({
         <ThemeProviderWrapper>
           {children}
         </ThemeProviderWrapper>
+        <Analytics />
       </body>
     </html>
   );
